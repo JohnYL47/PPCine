@@ -1,0 +1,33 @@
+{% extends "Main/LayoutMainLogin.html" %}
+{% block body %}
+<div class="login-box">
+    <!--Titulo del box-->
+    <h2>Login</h2>
+    <!--Formulario de login-->
+    <form>
+      <!--Nombre de usuario-->
+      <div class="user-box">
+        <input type="text" name="" required="">
+        <label>Nombre de usuario</label>
+      </div>
+      <!--Fin Nombre de usuario-->
+      <!--Contraseña-->
+      <div class="user-box">
+        <input type="password" name="" required="">
+        <label>Contraseña</label>
+      </div>
+      <!--Contraseña-->
+      <!--Boton para login-->
+      <a href="/fronted/indexMain">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        Submit
+      </a>
+      <!--Fin boton-->
+    </form>
+    <!--fin Formulario de login-->
+  </div>
+  <!--Fin Box para el login-->
+  {% endblock %}
