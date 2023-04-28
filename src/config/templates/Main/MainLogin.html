@@ -1,13 +1,24 @@
 {% extends "Main/LayoutMainLogin.html" %}
 {% block body %}
+<<<<<<< HEAD
 <head>
   <title>
       Peliculas - Login
   </title>
 </head>
 <div class="login-box">
+=======
+<title>
+        LOGIN   
+</title>
+<div class="login-background">
+  <video autoplay muted loop id="bg-video">
+    <source src="{{url_for('static', filename='/videos/y2mate.com - VUELVE EL CINE_1080p.mp4')}}" type="video/mp4"></video>
+  </video>
+  <div class="login-box">
+>>>>>>> e79dc44a967069761caffefbe4fc220c4124bff4
     <!--Titulo del box-->
-    <h2>Login</h2>
+    <h2 id="Login">Inicia Sesión</h2>
     <!--Formulario de login-->
     <form>
       <!--Nombre de usuario-->
@@ -35,4 +46,78 @@
     <!--fin Formulario de login-->
   </div>
   <!--Fin Box para el login-->
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<!-- FOOTER SECTION -->
+<footer id="pie"class="section">
+  <div class="container">
+      <div class="row">
+          <div class="col-4 col-md-6 col-sm-12">
+              <div class="content">
+                  <a href="#" class="logo">
+                      <i class='bx bx-movie-play bx-tada main-color'></i>Pe<span class="main-color">lic</span>ulas
+                  </a>
+                  <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut veniam ex quos hic id nobis
+                      beatae earum sapiente! Quod ipsa exercitationem officiis non error illum minima iusto et.
+                      Dolores, quibusdam?
+                  </p>
+              </div>
+          </div>
+          <div class="col-8 col-md-6 col-sm-12">
+              <div class="row">
+                  <div class="col-3 col-md-6 col-sm-6">
+                      <div class="content">
+                          <p><b>Help</b></p>
+                          <ul class="footer-menu">
+                              <li><a href="/acercaDe.html">ACERCA DE NOSOTROS</a></li>
+                          </ul>
+                      </div>
+                  </div>
+                  <div class="social-list">
+                      <a href="#" class="social-item">
+                          <i class="bx bxl-facebook"></i>
+                      </a>
+                      <a href="#" class="social-item">
+                          <i class="bx bxl-twitter"></i>
+                      </a>
+                      <a href="#" class="social-item">
+                          <i class="bx bxl-instagram"></i>
+                      </a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</footer>
+
   {% endblock %}

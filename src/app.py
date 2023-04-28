@@ -7,7 +7,7 @@ from api.Roles import routes_roles
 #Rutas
 from rutas.Mainlogin import routes_mainlogin
 from rutas.index import routes_index
-from rutas.descripcion import routes_descripcion
+from rutas.Descripcion import routes_Descripcion
 
 #ubicacion del api
 app.register_blueprint(routes_roles, url_prefix="/api")
@@ -16,7 +16,7 @@ app.register_blueprint(routes_roles, url_prefix="/api")
 #Ubicacion rutas
 app.register_blueprint(routes_mainlogin, url_prefix="/fronted")
 app.register_blueprint(routes_index, url_prefix="/fronted")
-app.register_blueprint(routes_descripcion, url_prefix="/fronted")
+app.register_blueprint(routes_Descripcion, url_prefix="/fronted")
 
 
 @app.route("/")

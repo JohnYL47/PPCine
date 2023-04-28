@@ -1,9 +1,9 @@
 from config.db import db, app, ma
 from flask import Blueprint, Flask,  redirect, request, jsonify, json, session, render_template
-routes_descripcion = Blueprint("routes_descripcion", __name__)
+routes_Descripcion = Blueprint("routes_Descripcion", __name__)
 
 
-@routes_descripcion.route('/descripcion', methods=['GET'] )
-def descripcion():
+@routes_Descripcion.route('/indexDescripcion', methods=['GET'] )
+def indexDescripcion():
     
-    return render_template('/Main/descrip.html')
+    return render_template('/Main/Descripcion.html')
