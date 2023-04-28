@@ -248,3 +248,14 @@ body {
     scrollbar-darkshadow-color: #666; /* color de sombra oscura */
     scrollbar-face-color: #888; /* color de la cara */
 }
+#trailer{
+    background-color: rgb(181, 37, 37);
+}
+#Trailer:hover{
+    background-color: rgb(87, 12, 12);
+}
+/*Container*/
+
+
+
+
