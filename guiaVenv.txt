@@ -1,0 +1,22 @@
+[ Guia de instalacion de venv ]
+
+1. Instalamos en la carpeta de trabajo Cine
+pip install virtualenv
+
+2. Creamos
+virtualenv venv
+
+3. Dirigimos para activarla ( venv )
+cd \venv\scripts\activate.bat
+
+4. Retrocedemos para instalar los flask
+cd ../..
+
+5. Instalamos los flask necesarios
+pip install flask flask-sqlalchemy flask-marshmallow marshmallow pymysql
+
+6. Sacamos las librerias 
+pip freeze > requirements.txt
+
+7. Instalamos las librerias
+pip install -r requirements.txt
