@@ -7,7 +7,7 @@ from api.Roles import routes_roles
 #Rutas
 from rutas.Mainlogin import routes_mainlogin
 from rutas.index import routes_index
-from rutas.Descripcion import routes_Descripcion
+from rutas.descripcion import routes_Descripcion
 
 #ubicacion del api
 app.register_blueprint(routes_roles, url_prefix="/api")

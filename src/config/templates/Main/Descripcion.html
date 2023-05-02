@@ -1,10 +1,10 @@
 {% extends "Main/LayoutDescripcion.html" %}
 {% block body %}
-   <div class="nav-wrapper1">
+<div class="nav-wrapper1">
     <div class="container1">
-        <div class="nav1">
-            <a href="#" class="logo">
-                <i class='bx bx-movie-play bx-tada main-color'></i>Pe<span class="main-color">lic</span>ulas
+        <a href="#" class="logo">
+            <i class='bx bx-movie-play bx-tada main-color'></i>Pe<span class="main-color">lic</span>ulas
+        <div class="nav">
             </a>
             <ul class="nav-menu" id="nav-menu">
                 <li><a href="#">Inicio</a></li>
@@ -16,7 +16,10 @@
                     </a>
                 </li>
             </ul>
-<div class='movie__overview'>
+        </div>
+    </div>
+</div>
+<div class='container movie__overview'>
     <div class='container movie__overview-wrapper'>
     <div class='backdrop__container'>
     <img alt='' class='backdrop__image' src='https://1.bp.blogspot.com/-YXpj5ooaK5w/YVhgR7HDCmI/AAAAAAAACbE/6-sQgaAlWDo9Cg3JkzTH22Go0RX65TcKwCLcBGAsYHQ/s1155/BrowserPreview_tmp.png'/>
@@ -31,7 +34,7 @@
     <span>(2021)</span></h1>
     <p class='view__info mb-0'>
     <i class='fa fa-star'></i>&nbsp;8.1   &nbsp;&nbsp;
-                       <i class='fa fa-clock'></i>&nbsp; 50m
+    <i class='fa fa-clock'></i>&nbsp; 50m
     </p>
     <p class='mt-0 text-subtle'>
     <span>Serie</span> /
@@ -42,8 +45,8 @@
     <p class='view__overview'>Cientos de jugadores con problemas de dinero aceptan una invitación rarísima para competir en juegos infantiles. Dentro les esperan un tentador premio y desafíos letales.</p>
     <div class='view__actions'>
     <button id="Trailer" class="button--primary">Ver Trailer &nbsp;&nbsp;<i class='fa fa-play'></i></button>&nbsp;
-                       <button class='button--download'>
-    <a href='https://ouo.io/V0Akdu' target='_blank'>Descargar&nbsp;&nbsp;<i class='fa fa-download'></i></a>
+    <button class='button--download'>
+    <a href='https://ouo.io/V0Akdu' target='_blank'>Optener Ticket&nbsp;&nbsp;<i class='fa fa-download'></i></a>
     </button>
     </div>
     </div>
@@ -56,7 +59,9 @@
     <div id='main__player'>
     <div class='flex__center watch__title'>
     <h1 class='flex__center'>El juego del calamar</h1>
-    <option value='https://www.youtube.com/embed/Mj4_xG5NXeo'>Opción 1</option>
+    <div class="text-center">
+        <option value='https://www.youtube.com/embed/Mj4_xG5NXeo' class="rounded">Opción 1</option>
+    </div>
     </select>
     </div>
     <iframe allowfullscreen='' frameborder='0' height='600' id='main__iframe' name='main__iframe' playsinline='' scrolling='no' src='https://www.youtube.com/embed/Mj4_xG5NXeo' width='100%'></iframe>
